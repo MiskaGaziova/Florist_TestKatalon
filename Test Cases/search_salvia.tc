@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>find_salvia</name>
+   <name>search_salvia</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c2529d09-2dcd-455e-b3b3-5b3535c93759</testCaseGuid>
