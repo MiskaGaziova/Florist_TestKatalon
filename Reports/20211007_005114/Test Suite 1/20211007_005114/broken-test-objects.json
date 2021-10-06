@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0",
+      "brokenLocator": "//div[@id\u003d\u0027ThemeNavigationItem-idm46152708037392423836227980960-3\u0027]/div/div/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027na dotaz\u0027])[1]/following::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211007_005114/Test Suite 1/20211007_005114/Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0_neighbor.png"
+    }
+  ]
+}

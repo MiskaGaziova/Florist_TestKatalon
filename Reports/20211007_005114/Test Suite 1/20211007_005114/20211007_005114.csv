@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 93.0.4577.82,,,2021-10-07 00:51:18,2021-10-07 00:52:29,1m - 11.187s,PASSED
+,,,,,,,
+Test Cases/search_for_oasis,Chrome 93.0.4577.82,,,2021-10-07 00:51:18,2021-10-07 00:51:33,15.182s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 00:51:19,2021-10-07 00:51:21,1.906s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 93.0.4577.82,,,2021-10-07 00:51:21,2021-10-07 00:51:21,0.680s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:21,2021-10-07 00:51:22,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:22,2021-10-07 00:51:22,0.414s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""oasis topolcany"")",Chrome 93.0.4577.82,,,2021-10-07 00:51:22,2021-10-07 00:51:24,2.274s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 00:51:24,2021-10-07 00:51:27,2.126s,PASSED
+"click(findTestObject(""Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:27,2021-10-07 00:51:31,4.794s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:31,2021-10-07 00:51:33,1.942s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-10-07 00:51:33,2021-10-07 00:51:33,0.114s,PASSED
+,,,,,,,
+Test Cases/search_salvia,Chrome 93.0.4577.82,,,2021-10-07 00:51:33,2021-10-07 00:52:16,42.898s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 00:51:34,2021-10-07 00:51:35,1.042s,PASSED
+"navigateToUrl(""https://www.oasis.sk/gardencentrum/"")",Chrome 93.0.4577.82,,,2021-10-07 00:51:35,2021-10-07 00:51:38,3.373s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:38,2021-10-07 00:51:39,0.500s,PASSED
+"setText(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1""), ""salvia"")",Chrome 93.0.4577.82,,,2021-10-07 00:51:39,2021-10-07 00:51:39,0.627s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 00:51:39,2021-10-07 00:51:42,2.143s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:42,2021-10-07 00:51:43,1.789s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0""))",Chrome 93.0.4577.82,,,2021-10-07 00:51:43,2021-10-07 00:52:16,32.853s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-10-07 00:52:16,2021-10-07 00:52:16,0.115s,PASSED
+,,,,,,,
+Test Cases/choose_everbearer_flowers,Chrome 93.0.4577.82,,,2021-10-07 00:52:16,2021-10-07 00:52:29,12.578s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 00:52:17,2021-10-07 00:52:17,0.657s,PASSED
+"navigateToUrl(""https://www.oasis.sk/gardencentrum/"")",Chrome 93.0.4577.82,,,2021-10-07 00:52:17,2021-10-07 00:52:21,3.270s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/button_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 00:52:21,2021-10-07 00:52:21,0.492s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/a_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 00:52:21,2021-10-07 00:52:23,1.981s,PASSED
+"click(findTestObject(""Object Repository/Page_Rastliny do zhrady - Oasis Topoany/span_Skalniky, trvalky abylinky""))",Chrome 93.0.4577.82,,,2021-10-07 00:52:23,2021-10-07 00:52:25,2.294s,PASSED
+"click(findTestObject(""Object Repository/Page_Skalniky, trvalky a bylinky do zhrady _3f1b86/a_Trvalky""))",Chrome 93.0.4577.82,,,2021-10-07 00:52:25,2021-10-07 00:52:29,3.498s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-10-07 00:52:29,2021-10-07 00:52:29,0.098s,PASSED

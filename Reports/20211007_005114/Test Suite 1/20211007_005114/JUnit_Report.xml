@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="71.711" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="3" failures="0" errors="0" time="71.711" skipped="0" timestamp="2021-10-07 00:51:18" hostname="miskagaziova - miskagaziova" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/miskagaziova/git/Florist_TestKatalon/Reports/20211007_005114/Test Suite 1/20211007_005114"/>
+         <property name="logFiles" value="/home/miskagaziova/git/Florist_TestKatalon/Reports/20211007_005114/Test Suite 1/20211007_005114/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="miskagaziova - miskagaziova"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.82"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="35f36df180e248e62ebb2eba9db07791"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/search_for_oasis" time="15.182" classname="Test Cases/search_for_oasis" status="PASSED">
+         <system-out><![CDATA[2021-10-07 00:51:18 - [TEST_CASE][PASSED] - Test Cases/search_for_oasis: Test Cases/search_for_oasis
+
+2021-10-07 00:51:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-07 00:51:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-07 00:51:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-07 00:51:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-07 00:51:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2021-10-07 00:51:21 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2021-10-07 00:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998")): Object: 'Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998' is clicked on
+
+2021-10-07 00:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998' is clicked on
+
+2021-10-07 00:51:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Google/div_Shlasm")): Object: 'Object Repository/Page_Google/div_Shlasm' is clicked on
+
+2021-10-07 00:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/div_Shlasm' is clicked on
+
+2021-10-07 00:51:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Google/input__q"), "oasis topolcany"): Text 'oasis topolcany' is set on object 'Object Repository/Page_Google/input__q'
+
+2021-10-07 00:51:24 - [MESSAGE][PASSED] - Text 'oasis topolcany' is set on object 'Object Repository/Page_Google/input__q'
+
+2021-10-07 00:51:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2021-10-07 00:51:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2021-10-07 00:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany")): Object: 'Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany' is clicked on
+
+2021-10-07 00:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany' is clicked on
+
+2021-10-07 00:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny")): Object: 'Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny' is clicked on
+
+2021-10-07 00:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny' is clicked on
+
+2021-10-07 00:51:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-07 00:51:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/search_salvia" time="42.898" classname="Test Cases/search_salvia" status="PASSED">
+         <system-out><![CDATA[2021-10-07 00:51:33 - [TEST_CASE][PASSED] - Test Cases/search_salvia: Test Cases/search_salvia
+
+2021-10-07 00:51:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-07 00:51:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-07 00:51:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-07 00:51:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-07 00:51:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.oasis.sk/gardencentrum/"): Navigate to 'https://www.oasis.sk/gardencentrum/' successfully
+
+2021-10-07 00:51:38 - [MESSAGE][PASSED] - Navigate to 'https://www.oasis.sk/gardencentrum/' successfully
+
+2021-10-07 00:51:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q")): Object: 'Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q' is clicked on
+
+2021-10-07 00:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q' is clicked on
+
+2021-10-07 00:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1"), "salvia"): Text 'salvia' is set on object 'Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1'
+
+2021-10-07 00:51:39 - [MESSAGE][PASSED] - Text 'salvia' is set on object 'Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1'
+
+2021-10-07 00:51:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1'
+
+2021-10-07 00:51:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1'
+
+2021-10-07 00:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444")): Object: 'Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444' is clicked on
+
+2021-10-07 00:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444' is clicked on
+
+2021-10-07 00:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0")): Object: 'Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0' is clicked on
+
+2021-10-07 00:52:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='ThemeNavigationItem-idm46152708037392423836227980960-3']/div/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-07 00:52:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0'. Try using Self-healing.
+
+2021-10-07 00:52:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='na dotaz'])[1]/following::span[6]'.
+
+2021-10-07 00:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0' is clicked on
+
+2021-10-07 00:52:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-07 00:52:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/choose_everbearer_flowers" time="12.578" classname="Test Cases/choose_everbearer_flowers" status="PASSED">
+         <system-out><![CDATA[2021-10-07 00:52:16 - [TEST_CASE][PASSED] - Test Cases/choose_everbearer_flowers: Test Cases/choose_everbearer_flowers
+
+2021-10-07 00:52:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-07 00:52:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-07 00:52:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-07 00:52:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-07 00:52:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.oasis.sk/gardencentrum/"): Navigate to 'https://www.oasis.sk/gardencentrum/' successfully
+
+2021-10-07 00:52:21 - [MESSAGE][PASSED] - Navigate to 'https://www.oasis.sk/gardencentrum/' successfully
+
+2021-10-07 00:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OASIS gardencentrum Topoany/button_Shlasm")): Object: 'Object Repository/Page_OASIS gardencentrum Topoany/button_Shlasm' is clicked on
+
+2021-10-07 00:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OASIS gardencentrum Topoany/button_Shlasm' is clicked on
+
+2021-10-07 00:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OASIS gardencentrum Topoany/a_Rastliny")): Object: 'Object Repository/Page_OASIS gardencentrum Topoany/a_Rastliny' is clicked on
+
+2021-10-07 00:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OASIS gardencentrum Topoany/a_Rastliny' is clicked on
+
+2021-10-07 00:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rastliny do zhrady - Oasis Topoany/span_Skalniky, trvalky abylinky")): Object: 'Object Repository/Page_Rastliny do zhrady - Oasis Topoany/span_Skalniky, trvalky abylinky' is clicked on
+
+2021-10-07 00:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rastliny do zhrady - Oasis Topoany/span_Skalniky, trvalky abylinky' is clicked on
+
+2021-10-07 00:52:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skalniky, trvalky a bylinky do zhrady _3f1b86/a_Trvalky")): Object: 'Object Repository/Page_Skalniky, trvalky a bylinky do zhrady _3f1b86/a_Trvalky' is clicked on
+
+2021-10-07 00:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skalniky, trvalky a bylinky do zhrady _3f1b86/a_Trvalky' is clicked on
+
+2021-10-07 00:52:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-07 00:52:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-07 00:51:18 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/choose_everbearer_flowers]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
