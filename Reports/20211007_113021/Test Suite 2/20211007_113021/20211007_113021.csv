@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2,Chrome 93.0.4577.82,,,2021-10-07 11:30:24,2021-10-07 11:30:48,23.967s,PASSED
+,,,,,,,
+Test Cases/search_for_oasis2,Chrome 93.0.4577.82,,,2021-10-07 11:30:25,2021-10-07 11:30:40,15.579s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 11:30:25,2021-10-07 11:30:27,2.033s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 93.0.4577.82,,,2021-10-07 11:30:27,2021-10-07 11:30:28,0.690s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:28,2021-10-07 11:30:29,0.475s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:29,2021-10-07 11:30:29,0.472s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""oasis topolcany"")",Chrome 93.0.4577.82,,,2021-10-07 11:30:29,2021-10-07 11:30:31,2.370s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 11:30:31,2021-10-07 11:30:34,2.159s,PASSED
+"click(findTestObject(""Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:34,2021-10-07 11:30:38,4.869s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:38,2021-10-07 11:30:40,2.053s,PASSED
+,,,,,,,
+Test Cases/choose_everbearer_flowers2,Chrome 93.0.4577.82,,,2021-10-07 11:30:40,2021-10-07 11:30:48,7.958s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/button_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:41,2021-10-07 11:30:41,0.401s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/a_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:41,2021-10-07 11:30:43,1.491s,PASSED
+"click(findTestObject(""Object Repository/Page_Rastliny do zhrady - Oasis Topoany/span_Skalniky, trvalky abylinky""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:43,2021-10-07 11:30:45,2.354s,PASSED
+"click(findTestObject(""Object Repository/Page_Skalniky, trvalky a bylinky do zhrady _3f1b86/a_Trvalky""))",Chrome 93.0.4577.82,,,2021-10-07 11:30:45,2021-10-07 11:30:48,3.319s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-10-07 11:30:48,2021-10-07 11:30:48,0.123s,PASSED

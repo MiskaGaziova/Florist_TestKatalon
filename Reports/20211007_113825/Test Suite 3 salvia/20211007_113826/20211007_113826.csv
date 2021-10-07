@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 3 salvia,Chrome 93.0.4577.82,,,2021-10-07 11:38:30,2021-10-07 11:39:00,30.157s,FAILED
+,,,,,,,
+Test Cases/search_for_oasis2,Chrome 93.0.4577.82,,,2021-10-07 11:38:31,2021-10-07 11:38:46,15.937s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 11:38:31,2021-10-07 11:38:33,2.018s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 93.0.4577.82,,,2021-10-07 11:38:33,2021-10-07 11:38:34,0.687s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998""))",Chrome 93.0.4577.82,,,2021-10-07 11:38:34,2021-10-07 11:38:34,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 11:38:34,2021-10-07 11:38:35,0.415s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""oasis topolcany"")",Chrome 93.0.4577.82,,,2021-10-07 11:38:35,2021-10-07 11:38:37,2.579s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 11:38:37,2021-10-07 11:38:39,2.132s,PASSED
+"click(findTestObject(""Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany""))",Chrome 93.0.4577.82,,,2021-10-07 11:38:39,2021-10-07 11:38:44,5.087s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 11:38:44,2021-10-07 11:38:46,2.007s,PASSED
+,,,,,,,
+Test Cases/search_salvia,Chrome 93.0.4577.82,,,2021-10-07 11:39:00,2021-10-07 11:39:00,0.218s,FAILED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q""))",Chrome 93.0.4577.82,,,2021-10-07 11:39:00,2021-10-07 11:39:00,0.202s,FAILED

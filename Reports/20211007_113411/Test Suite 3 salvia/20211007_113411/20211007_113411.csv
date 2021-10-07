@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 3 salvia,Chrome 93.0.4577.82,,,2021-10-07 11:34:14,2021-10-07 11:35:12,58.244s,PASSED
+,,,,,,,
+Test Cases/search_for_oasis2,Chrome 93.0.4577.82,,,2021-10-07 11:34:15,2021-10-07 11:34:30,15.640s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 11:34:15,2021-10-07 11:34:17,2.134s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 93.0.4577.82,,,2021-10-07 11:34:17,2021-10-07 11:34:18,0.724s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:18,2021-10-07 11:34:18,0.498s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:18,2021-10-07 11:34:19,0.489s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""oasis topolcany"")",Chrome 93.0.4577.82,,,2021-10-07 11:34:19,2021-10-07 11:34:21,2.404s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 11:34:21,2021-10-07 11:34:23,2.111s,PASSED
+"click(findTestObject(""Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:23,2021-10-07 11:34:28,4.684s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:28,2021-10-07 11:34:30,2.115s,PASSED
+,,,,,,,
+Test Cases/search_salvia2,Chrome 93.0.4577.82,,,2021-10-07 11:34:30,2021-10-07 11:35:12,42.178s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 11:34:30,2021-10-07 11:34:31,0.825s,PASSED
+"navigateToUrl(""https://www.oasis.sk/gardencentrum/"")",Chrome 93.0.4577.82,,,2021-10-07 11:34:31,2021-10-07 11:34:35,3.640s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:35,2021-10-07 11:34:35,0.502s,PASSED
+"setText(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1""), ""salvia"")",Chrome 93.0.4577.82,,,2021-10-07 11:34:35,2021-10-07 11:34:36,0.635s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 11:34:36,2021-10-07 11:34:38,1.744s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:38,2021-10-07 11:34:39,1.686s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0""))",Chrome 93.0.4577.82,,,2021-10-07 11:34:39,2021-10-07 11:35:12,32.774s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-10-07 11:35:12,2021-10-07 11:35:12,0.103s,PASSED

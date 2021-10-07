@@ -17,19 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Page_Rastliny do zhrady - Oasis Topoany/input_Novinky_q'))
 
-WebUI.navigateToUrl('https://www.oasis.sk/gardencentrum/')
+WebUI.setText(findTestObject('Object Repository/Page_Rastliny do zhrady - Oasis Topoany/input_Novinky_q_1'), 'salvia')
 
-WebUI.click(findTestObject('Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q'))
-
-WebUI.setText(findTestObject('Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1'), 'salvia')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_OASIS gardencentrum Topoany/input_Novinky_q_1'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Rastliny do zhrady - Oasis Topoany/input_Novinky_q_1'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444'))
-
-WebUI.click(findTestObject('Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_na dotaz_decoration-background-image i_a9a8e0'))
 
 WebUI.closeBrowser()
 
