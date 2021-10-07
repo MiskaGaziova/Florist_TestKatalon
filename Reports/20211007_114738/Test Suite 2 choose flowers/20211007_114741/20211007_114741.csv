@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2 choose flowers,Firefox 92.0,,,2021-10-07 11:47:49,2021-10-07 11:49:03,1m - 13.815s,PASSED
+,,,,,,,
+Test Cases/search_for_oasis2,Firefox 92.0,,,2021-10-07 11:48:33,2021-10-07 11:48:53,19.868s,PASSED
+"openBrowser("""")",Firefox 92.0,,,2021-10-07 11:48:33,2021-10-07 11:48:39,5.951s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Firefox 92.0,,,2021-10-07 11:48:39,2021-10-07 11:48:40,1.420s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998""))",Firefox 92.0,,,2021-10-07 11:48:40,2021-10-07 11:48:41,0.786s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_Shlasm""))",Firefox 92.0,,,2021-10-07 11:48:41,2021-10-07 11:48:42,0.669s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""oasis topolcany"")",Firefox 92.0,,,2021-10-07 11:48:42,2021-10-07 11:48:43,1.457s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Firefox 92.0,,,2021-10-07 11:48:43,2021-10-07 11:48:44,0.682s,PASSED
+"click(findTestObject(""Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany""))",Firefox 92.0,,,2021-10-07 11:48:44,2021-10-07 11:48:49,4.911s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny""))",Firefox 92.0,,,2021-10-07 11:48:49,2021-10-07 11:48:53,3.970s,PASSED
+,,,,,,,
+Test Cases/choose_everbearer_flowers2,Firefox 92.0,,,2021-10-07 11:48:53,2021-10-07 11:49:03,10.379s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/button_Shlasm""))",Firefox 92.0,,,2021-10-07 11:48:54,2021-10-07 11:48:55,1.021s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/a_Rastliny""))",Firefox 92.0,,,2021-10-07 11:48:55,2021-10-07 11:48:57,2.238s,PASSED
+"click(findTestObject(""Object Repository/Page_Rastliny do zhrady - Oasis Topoany/span_Skalniky, trvalky abylinky""))",Firefox 92.0,,,2021-10-07 11:48:57,2021-10-07 11:48:59,2.225s,PASSED
+"click(findTestObject(""Object Repository/Page_Skalniky, trvalky a bylinky do zhrady _3f1b86/a_Trvalky""))",Firefox 92.0,,,2021-10-07 11:48:59,2021-10-07 11:49:02,2.943s,PASSED
+closeBrowser(),Firefox 92.0,,,2021-10-07 11:49:02,2021-10-07 11:49:03,0.847s,PASSED

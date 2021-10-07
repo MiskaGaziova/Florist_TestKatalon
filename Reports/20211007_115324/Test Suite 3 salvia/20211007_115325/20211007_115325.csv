@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 3 salvia,Chrome 93.0.4577.82,,,2021-10-07 11:53:31,2021-10-07 11:53:53,21.407s,PASSED
+,,,,,,,
+Test Cases/search_for_oasis2,Chrome 93.0.4577.82,,,2021-10-07 11:53:32,2021-10-07 11:53:48,15.891s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-10-07 11:53:32,2021-10-07 11:53:35,2.401s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 93.0.4577.82,,,2021-10-07 11:53:35,2021-10-07 11:53:35,0.677s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_skSloveninaAfrikaansazrbaycanbosanskica_5fa998""))",Chrome 93.0.4577.82,,,2021-10-07 11:53:35,2021-10-07 11:53:36,0.508s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/div_Shlasm""))",Chrome 93.0.4577.82,,,2021-10-07 11:53:36,2021-10-07 11:53:36,0.550s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""oasis topolcany"")",Chrome 93.0.4577.82,,,2021-10-07 11:53:36,2021-10-07 11:53:39,2.377s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 11:53:39,2021-10-07 11:53:41,2.187s,PASSED
+"click(findTestObject(""Object Repository/Page_oasis topolcany - Hada Googlom/h3_OASIS gardencentrum Topoany""))",Chrome 93.0.4577.82,,,2021-10-07 11:53:41,2021-10-07 11:53:45,4.511s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS gardencentrum Topoany/span_Rastliny""))",Chrome 93.0.4577.82,,,2021-10-07 11:53:45,2021-10-07 11:53:48,2.172s,PASSED
+,,,,,,,
+Test Cases/search_salvia,Chrome 93.0.4577.82,,,2021-10-07 11:53:48,2021-10-07 11:53:53,5.023s,PASSED
+"click(findTestObject(""Object Repository/Page_Rastliny do zhrady - Oasis Topoany/input_Novinky_q""))",Chrome 93.0.4577.82,,,2021-10-07 11:53:48,2021-10-07 11:53:48,0.620s,PASSED
+"setText(findTestObject(""Object Repository/Page_Rastliny do zhrady - Oasis Topoany/input_Novinky_q_1""), ""salvia"")",Chrome 93.0.4577.82,,,2021-10-07 11:53:48,2021-10-07 11:53:49,0.646s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Rastliny do zhrady - Oasis Topoany/input_Novinky_q_1""), Keys.chord(ENTER))",Chrome 93.0.4577.82,,,2021-10-07 11:53:49,2021-10-07 11:53:51,1.670s,PASSED
+"click(findTestObject(""Object Repository/Page_OASIS Topoany - Vyhadvanie - salvia/span_Vsledky vyhadvania_decoration-backgrou_515444""))",Chrome 93.0.4577.82,,,2021-10-07 11:53:51,2021-10-07 11:53:52,1.702s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-10-07 11:53:52,2021-10-07 11:53:53,0.135s,PASSED
